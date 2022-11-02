@@ -16,12 +16,12 @@
  * Create a loop that counts from 0 to 10, printing each number (including 0 and 10).
  */
 
-// The first one has been done for you as an example!1
-//function prompt1() {
+// The first one has been done for you as an example!
+function prompt1() {
   for (let i = 0; i <= 10; i++) {
-  console.log(i);
-  // }
-//
+    console.log(i);
+  }
+}
 
 // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
 // prompt1()
@@ -34,11 +34,9 @@
  * Create a loop that prints every even number BETWEEN 0 and 100 (not including 0 or 100).
  */
 
->>>>//function prompt2() {
+function prompt2() {
   // YOUR CODE HERE
 }
-for (let i =0; i <=100; i++) {
-  console.log(i);
 
 // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
 // prompt2();
@@ -52,8 +50,8 @@ for (let i =0; i <=100; i++) {
  */
 
 function prompt3() {
-  for (let i = -6; i <= 6; i++) {
-    console.log(i);
+  // YOUR CODE HERE
+}
 
 // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
 // prompt3()
@@ -67,8 +65,7 @@ function prompt3() {
  */
 
 function prompt4() {
-  for (let i = -11; i =0; i++) 
-    console.log(i);
+  // YOUR CODE HERE
 }
 
 // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
@@ -82,8 +79,7 @@ function prompt4() {
  * Create a loop that counts down from 5 to -5, printing each number (including 5 and -5).
  */
 function prompt5() {
-  for (let i = 5; i = -5; i-1) {
-    console.log(i);
+  // YOUR CODE HERE
 }
 
 // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
@@ -99,9 +95,7 @@ function prompt5() {
  */
 
 function prompt6() {
-  for (let i = -4; i <= -6; i++) {
-    console.log(i);
-    i++
+  // YOUR CODE HERE
 }
 
 // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
@@ -120,15 +114,13 @@ function prompt6() {
  *   - I found a 10. High five!
  */
 function prompt7() {
-  for (let i = 1; i <= 100; x++){
-    if( i % 5 ) {
-        console.log("I have found a" + i + ", High five!" );
-   ​
+  // YOUR CODE HERE
+}
 
 // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
 // prompt7()
 
-// 🌟 MAKE A COMMIT: "Complete prompt 7
+// 🌟 MAKE A COMMIT: "Complete prompt 7"
 
 /*
  * Prompt 8:
@@ -141,22 +133,15 @@ function prompt7() {
  *   - if someNumber is between 30 and 60, print "The number is medium sized."
  *   - if someNumber is greater than 60, print "We got a big one!"
  */
-  
 
 //  define someNumber here
 var someNumber;
-someNumber = Math.floor(Math.random() * 100);
 
 function prompt8() {
   // print someNumber to the console in your function so you can see its value
   console.log(someNumber);
 
-  if (someNumber <= 30){
-    console.log("That's a small number!");
-  }else (someNumber = 30 - 60){
-      console.log ("That number is medium sized");
-       }if else( someNumber >= 60)
-      console.log ("We got a big one!")
+  // YOUR CODE HERE
 }
 
 // COMMENT IN THE BELOW LINE OF CODE TO TEST YOUR OUTPUT IN THE BROWSER!
@@ -216,8 +201,31 @@ function prompt10() {
  */
 
 let nums = [
-  14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12,
-  17, 12, 71, 18, 15, 12,
+  14,
+  11,
+  16,
+  15,
+  13,
+  16,
+  15,
+  17,
+  19,
+  11,
+  12,
+  14,
+  19,
+  11,
+  15,
+  17,
+  11,
+  18,
+  12,
+  17,
+  12,
+  71,
+  18,
+  15,
+  12,
 ];
 
 function prompt11() {
